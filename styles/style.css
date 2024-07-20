@@ -490,6 +490,11 @@
   flex-basis: 198px;
 }
 
+.save__dialog-icon {
+  width: 39px;
+  height: 39px;
+}
+
 .save__dialog-button {
   border: 2px solid var(--accent-color);
   width: 100%;

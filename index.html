@@ -633,8 +633,8 @@
         <button
           class="button save__button"
           type="button"
-          onclick="window['save__dialog'].showModal();"
-          aria-controls="save__dialog"
+          onclick="window['dialog-id'].showModal();"
+          aria-controls="dialog-id"
         >
           <svg class="save__button-icon">
             <use href="./svg/floppy.svg#floppy" />
@@ -642,9 +642,9 @@
           <span class="button__text">Сохранить на память</span>
         </button>
 
-        <dialog class="save__dialog" id="save__dialog">
+        <dialog class="save__dialog" id="dialog-id">
           <div class="save__dialog-container">
-            <svg class="save__dialog-icon" width="39px" height="39px">
+            <svg class="save__dialog-icon">
               <use href="./svg/floppy.svg#floppy" />
             </svg>
 
@@ -654,32 +654,11 @@
           </div>
           
             <button class="button save__dialog-button" type="button" 
-            onclick="window['save__dialog'].close()">
+            onclick="window['dialog-id'].close()">
               <span class="button__text">Ок</span>
             </button>
           
         </dialog>
-
-        <!-- Так же реализация через атрибут popover -->
-        <!-- <div class="save__dialog" id="save__dialog" popover="manual">
-        <div class="save__dialog-container">
-          <svg class="save__dialog-icon" width="39px" height="39px">
-            <use href="./svg/floppy.svg#floppy" />
-          </svg>
-
-          <span class="save__dialog-text">
-            Вставьте дискету, чтобы продолжить
-          </span>
-        </div>
-
-        <button
-          class="button save__dialog-button"
-          popovertarget="save__dialog"
-          popovertargetaction="hide"
-        >
-          <span class="button__text">ок</span>
-        </button>
-      </div> -->
       </section>
     </main>
     <script src="./scripts/like.js"></script>
