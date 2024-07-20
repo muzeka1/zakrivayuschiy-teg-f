@@ -24,7 +24,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    :root{
+    :root {
         --card-title-weight: 785;
         --card-text-weight: 465;
         --bg-color: #000;

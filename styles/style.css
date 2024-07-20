@@ -88,7 +88,6 @@
   cursor: pointer;
   opacity: 1;
   transition: opacity 0.3s ease;
-  position: relative;
   padding: 0;
 }
 
@@ -507,6 +506,7 @@
 
   .card-image__description {
     top: 22px;
+    right: 13px;
   }
 
   .save__button {
@@ -516,9 +516,5 @@
   .save__button-icon {
     width: 28px;
     height: 28px;
-  }
-
-  .card-image__description {
-    right: 13px;
   }
 }
