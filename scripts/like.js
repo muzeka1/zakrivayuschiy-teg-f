@@ -39,3 +39,12 @@ function setButtonText(heart, button) {
     );
   }
 }
+
+function closeModal(e) {
+  e.preventDefault();
+
+  const dialog = document.getElementById('dialog-id');
+  if (dialog) {
+    dialog.close();
+  }
+}

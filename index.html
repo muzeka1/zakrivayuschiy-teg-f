@@ -631,10 +631,10 @@
         </ul>
 
         <button
-          type="button"
           class="button save__button"
+          type="button"
           onclick="window['dialog-id'].showModal();"
-          aria-controls="dialog-id"
+          aria-controls="save__dialog"
         >
           <svg class="save__button-icon">
             <use href="./svg/floppy.svg#floppy" />
@@ -653,14 +653,20 @@
             </span>
           </div>
 
-          <button
-            type="button"
-            class="button save__dialog-button"
-            onclick="window['dialog-id'].close()"
-          >
-            <span class="button__text">Ок</span>
-          </button>
+          <!-- <form method="dialog">
+            <button class="button save__dialog-button">
+              <span class="button__text">Ок</span>
+            </button>
+          </form> -->
+          
+            <button class="button save__dialog-button" type="button" 
+            onclick="closeModal(event)">
+              <span class="button__text">Ок</span>
+            </button>
+          
         </dialog>
+
+       
       </section>
     </main>
     <script src="./scripts/like.js"></script>
