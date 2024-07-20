@@ -631,8 +631,8 @@
         </ul>
 
         <button
-          class="button save__button"
           type="button"
+          class="button save__button"
           onclick="window['dialog-id'].showModal();"
           aria-controls="dialog-id"
         >
@@ -652,12 +652,14 @@
               Вставьте дискету, чтобы продолжить
             </span>
           </div>
-          
-            <button class="button save__dialog-button" type="button" 
-            onclick="window['dialog-id'].close()">
-              <span class="button__text">Ок</span>
-            </button>
-          
+
+          <button
+            type="button"
+            class="button save__dialog-button"
+            onclick="window['dialog-id'].close()"
+          >
+            <span class="button__text">Ок</span>
+          </button>
         </dialog>
       </section>
     </main>
