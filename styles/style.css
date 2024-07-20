@@ -53,7 +53,7 @@
 }
 
 .logo {
-  font-size: var(--header-title-font-size);
+  font-size: var(--header-logo-font-size);
   cursor: pointer;
   text-transform: uppercase;
 }
@@ -64,7 +64,7 @@
 
 .header__title {
   margin-block-start: 20px;
-  font-size: var(--header-subtitle-font-size);
+  font-size: var(--header-title-font-size);
   text-transform: uppercase;
 }
 
@@ -255,8 +255,6 @@
   outline: 2px solid var(--accent-color);
 }
 
-
-
 /* like-icon */
 
 .heart {
@@ -412,7 +410,7 @@
 }
 
 .street_view {
-  filter:hue-rotate(10deg) ;
+  filter: hue-rotate(10deg);
 }
 
 .aya_sophia {
@@ -422,7 +420,6 @@
 .tree {
   filter: grayscale(0.6) contrast(0.7) hue-rotate(45deg);
 }
-
 
 .save__button {
   margin-block: 54px 105px;

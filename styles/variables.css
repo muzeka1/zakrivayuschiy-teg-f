@@ -4,8 +4,8 @@
     --PressStart2P: PressStart2P;
     --card-title-weight: 700;
     --card-text-weight: 400;
-    --header-title-font-size: clamp(3.063rem, 2.71rem + 1.502vw, 4.063rem);
-    --header-subtitle-font-size: clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
+    --header-logo-font-size: clamp(3.063rem, 2.71rem + 1.502vw, 4.063rem);
+    --header-title-font-size: clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
     --bg-color: #fff;
     --button-text-color: #fff;
     --accent-color: #000;
