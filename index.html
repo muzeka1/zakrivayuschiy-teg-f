@@ -652,11 +652,12 @@
               Вставьте дискету, чтобы продолжить
             </span>
           </div>
-          <form method="dialog">
-            <button class="button save__dialog-button" type="button">
+          
+            <button class="button save__dialog-button" type="button" 
+            onclick="window['save__dialog'].close()">
               <span class="button__text">Ок</span>
             </button>
-          </form>
+          
         </dialog>
 
         <!-- Так же реализация через атрибут popover -->
