@@ -229,6 +229,7 @@
 }
 
 .card__icon-button {
+  cursor: pointer;
   background-color: transparent;
   border: none;
   color: var(--accent-color);
@@ -249,6 +250,7 @@
 
 .button {
   background-color: transparent;
+  cursor: pointer;
   font-family: var(--PressStart2P), fantasy;
   font-size: 14px;
   line-height: 0.9;
@@ -302,11 +304,11 @@
 }
 
 .filter-highter__contrast {
-  filter: contrast(1.2);
+  filter: contrast(1.3);
 }
 
 .filter-lower__brightness {
-  filter: brightness(0.9);
+  filter: brightness(0.7);
 }
 
 .filter-grayscale {
