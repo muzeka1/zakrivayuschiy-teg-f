@@ -319,7 +319,7 @@
   filter: sepia(0.1);
 }
 
-.filter-blur{
+.filter-blur {
   filter: blur(10px);
 }
 
@@ -330,7 +330,6 @@
 .filter-complex-invert {
   filter: invert() brightness(0.7) hue-rotate(100deg);
 }
-
 
 .save__button {
   margin-block: 54px 105px;
@@ -379,6 +378,7 @@
   color: var(--accent-color);
   padding: 30px 42px;
   width: min(90.9%, 357px);
+  min-width: 341px; /* При нажатии на кнопку сохранить ширина окна была 333px, почему то стиль выше не работал (и если задать clamp ширина все равно становилась 333px) РАБОТАЕТ ПРАВИЛЬНО ТОЛЬКО С МИН ШИРИНОЙ*/
   text-transform: uppercase;
   transition: opacity 0.3s ease-in-out;
 }
